@@ -15,6 +15,6 @@ while True:
     tcpCli.send(data)
     data = tcpCli.recv(BufSize)
     if not data :
-        print (data) 
+        print (data)  
 
 tcpCli.close() 
