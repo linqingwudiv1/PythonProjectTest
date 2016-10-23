@@ -6,12 +6,12 @@
     <ProjectGuid>a3686a63-ac18-4983-881c-ba07d65520d1</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>PythonApplication1.py</StartupFile>
+    <StartupFile>TCPServerTest.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>NetTCPServerTest</Name>
+    <Name>NetServerTest</Name>
     <RootNamespace>PythonApplication1</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -23,7 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonApplication1.py" />
+    <Compile Include="TCPServerTest.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

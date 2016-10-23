@@ -6,12 +6,12 @@
     <ProjectGuid>efe6792a-aaf3-44f3-aa40-fe1f1d3b6f9e</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>PythonApplication2.py</StartupFile>
+    <StartupFile>TCPClientTest.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>NetTCPClientTest</Name>
+    <Name>NetClientTest</Name>
     <RootNamespace>PythonApplication2</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -23,7 +23,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonApplication2.py" />
+    <Compile Include="TCPClientTest.py" />
+    <Compile Include="UDPClientTest.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

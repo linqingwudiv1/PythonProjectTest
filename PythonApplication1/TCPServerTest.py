@@ -1,3 +1,4 @@
+#python 3.5 TCp Client Exma
 from socket import *
 from time import ctime
 
@@ -9,15 +10,18 @@ ADDR = (Host, Port)
 tcpSerSocket = socket(AF_INET, SOCK_STREAM)
 tcpSerSocket.bind(ADDR)
 tcpSerSocket.listen(5)
+
+
 while True:
-    print ('lian jie ')
+    print ('wait conn ')
     conn, addr = tcpSerSocket.accept()
-    print ('ds:', addr)
+    print ('IP Addr:', addr)
 
     while True:
         data = conn.recv(BufSize)
+        print (data.decode())
         if not data:
             break;
-        conn.send('[%s] %s' %(bytes(ctime(), 'utf-8'), data))
+        conn.send(('ready return test :'+ data.decode()).encode('utf-8'))
     conn.close()
 tcpSerSocket.close()

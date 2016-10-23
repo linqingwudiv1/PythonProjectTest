@@ -12,9 +12,10 @@ while True:
     data = input('> ')
     if not data :
         break;
-    tcpCli.send(data)
+    tcpCli.send(data.encode())
     data = tcpCli.recv(BufSize)
     if not data :
-        print (data)  
+        print (data.decode())  
+    print (data.decode())  
 
 tcpCli.close() 

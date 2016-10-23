@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NetTCPServerTest", "PythonApplication1\NetTCPServerTest.pyproj", "{A3686A63-AC18-4983-881C-BA07D65520D1}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NetServerTest", "PythonApplication1\NetServerTest.pyproj", "{A3686A63-AC18-4983-881C-BA07D65520D1}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NetTCPClientTest", "PythonApplication2\NetTCPClientTest.pyproj", "{EFE6792A-AAF3-44F3-AA40-FE1F1D3B6F9E}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NetClientTest", "PythonApplication2\NetClientTest.pyproj", "{EFE6792A-AAF3-44F3-AA40-FE1F1D3B6F9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
